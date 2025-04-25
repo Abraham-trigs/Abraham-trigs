@@ -11,16 +11,17 @@ import SocialLinks from '../../components/UI/SocialLinks';
 const Hero = () => {
   return (
     <>
-    <div className=' max-w-screen-xl mx-auto px-4 m-7'>
-      <div className='flex gap-x-3'>
+    <div className='grid-cols-2 items-center max-w-screen-xl mx-auto px-4  '>
+      <div className='flex gap-x-3 mt-6'>
         <Logo />
         <Nav />
       </div>
 
       {/* Picture */}
-      <div className="flex flex-col items-center justify-center mt-3 scale-90 sm:scale-100">
+      <div className="flex flex-col items-center justify-center mt-3 scale-90 
+            sm:scale-100">
         <div className="overflow-hidden rounded-2xl shadow-xl border-2
-             border-gray-200 w-60 h-72 sm:w-72 sm:h-80 transition-all 
+             border-power w-60 h-72 sm:w-72 sm:h-80 transition-all 
              duration-300 hover:scale-105">
           <img
             src={Abraham}
@@ -36,7 +37,9 @@ const Hero = () => {
         <SocialLinks />
       </div>
 
+
     </div>
+
     </>
 
   );

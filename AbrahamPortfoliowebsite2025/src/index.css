@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --color-blood: #AE0204;
+  --color-bone: #004B46;
+  --color-cloud: #ffffff;
+  --color-power: #000000;
+  --color-air: #fffbe0;
+}
+
+body {
+  font-family: 'TT Chocolates', sans-serif;
+}
