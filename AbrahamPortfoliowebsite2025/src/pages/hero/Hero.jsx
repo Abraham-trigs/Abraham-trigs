@@ -17,6 +17,9 @@ const Hero = () => {
         <Nav />
       </div>
 
+      <Intro />
+
+
       {/* Picture */}
       <div className="flex flex-col items-center justify-center mt-3 scale-90 
             sm:scale-100">
@@ -32,7 +35,6 @@ const Hero = () => {
       </div>
 
       <div className =" flex flex-col items-center pb-8 px-6 md:px-20">
-        <Intro />
         <CTAButtons />
         <SocialLinks />
       </div>
