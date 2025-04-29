@@ -6,7 +6,7 @@ const CTAButtons = () => {
       <button className="bg-bone text-cloud px-4 py-2 rounded-md font-bold text-sm">
         HIRE ME
       </button>
-      <button className="bg-blood text-cloud px-4 py-2 rounded-md font-bold text-sm">
+      <button className="bg-cloud text-bone px-4 py-2 rounded-md font-bold text-sm">
         VIEW PORTFOLIO
       </button>
     </div>
