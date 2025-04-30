@@ -7,7 +7,7 @@ const logo = () => {
       <img
       src= {Logo}
       alt="Personal Logo"
-      className= "w-16 h-auto flex "/>
+      className= "w-16 h-auto"/>
 
     </div>
 )
