@@ -20,7 +20,7 @@ const ContactForm = () => {
   } = useContactStore();
 
   // Maximum allowed file size: 5MB
-  const MAX_FILE_SIZE = 10 * 1024 * 1024;
+  const MAX_FILE_SIZE = 1 * 1024 * 1024;
 
   /**
    * Handles submission of the contact form.
@@ -56,7 +56,7 @@ const ContactForm = () => {
   const handleFileChange = (e) => {
     const file = e.target.files[0];
     if (file && file.size > MAX_FILE_SIZE) {
-      setFileName("❌ File size exceeds 5MB limit");
+      setFileName("❌ File size exceeds 50kb limit");
       e.target.value = ''; // Clears the invalid file from input
     } else {
       setFileName(file ? file.name : "No file selected");
@@ -137,7 +137,7 @@ const ContactForm = () => {
         <button
           type="submit"
           disabled={isSending}
-          className={`w-full ${isSending ? 'bg-gray-500 cursor-not-allowed' : 'bg-blood hover:bg-red-800'} text-white font-semibold py-2 px-4 rounded-xl transition-all duration-300`}
+          className={`w-full ${isSending ? 'bg-gray-500 cursor-not-allowed' : 'bg-bone hover:bg-blood'} text-white font-semibold py-2 px-4 rounded-xl transition-all duration-300`}
         >
           {isSending ? "Sending..." : "Send Message"}
         </button>

@@ -1,20 +1,18 @@
 import React from 'react';
-import Nav from './Nav';
-import Logo from '../../components/UI/Logo';
-import Intro from './Intro';
+import Logo from '../components/UI/Logo';
+import Intro from '../components/UI/Intro';
 import Abraham from '@/assets/images/Abraham.jpg'
-import CTAButtons from './CTAbuttons';
-import SocialLinks from '../../components/UI/SocialLinks';
+import CTAButtons from '../components/UI/CTAbuttons';
+import SocialLinks from '../components/UI/SocialLinks';
 
 
 
-const Hero = () => {
+const Home = () => {
   return (
     <>
     <div className='grid-cols-2 items-center max-w-screen-xl mx-auto px-4  '>
-      <div className='flex gap-x-3 mt-6'>
-        <Logo />
-        <Nav />
+      <div className="flex flex-col items-center mt-6 w-24 h-auto mx-auto">
+        <Logo className=" object-contain" />
       </div>
 
       <Intro />
@@ -47,5 +45,5 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;
 
