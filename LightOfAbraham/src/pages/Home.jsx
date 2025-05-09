@@ -1,10 +1,10 @@
 import React from 'react';
-import { motion } from 'framer-motion'; // 🎯 Import motion for layout animation
-import Logo from '../components/UI/Logo';
+import { motion } from 'framer-motion'; 
 import Intro from '../components/UI/Intro';
 import Abraham from '@/assets/images/Abraham.jpg';
 import CTAButtons from '../components/UI/CTAbuttons';
 import SocialLinks from '../components/UI/SocialLinks';
+import Logo from '../components/UI/Logo';
 
 const Home = () => {
   return (
@@ -31,16 +31,17 @@ const Home = () => {
         </motion.div>
 
         {/* Animated profile picture with hover scale */}
-        <div className="flex flex-col items-center justify-center mt-3 scale-90 sm:scale-100">
+        <div className="flex flex-col items-center justify-center mt-3 
+            scale-90 sm:scale-100">
           <motion.div
             layout
-            className="overflow-hidden rounded-2xl shadow-xl border-2 border-power 
+            className="overflow-hidden rounded-2xl border-2 border-power shadow-2xl 
               w-60 h-72 sm:w-72 sm:h-80 transition-all duration-300 hover:scale-105"
           >
             <img
               src={Abraham}
               alt="Abraham Bortey Danfa"
-              className="mt-3 w-full h-full object-cover"
+              className="mt-3 w-full h-full object-cover "
             />
           </motion.div>
         </div>
