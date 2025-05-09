@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Link, useLocation } from "react-router-dom"; // Import React Router's Link and useLocation hook
-import { motion, AnimatePresence } from "framer-motion"; // Import Framer Motion for animations
+import { Link, useLocation } from "react-router-dom"; 
+import { motion, AnimatePresence } from "framer-motion"; 
 
 // Navigation component for rendering a responsive, animated navbar
 const Nav = () => {
@@ -16,7 +16,7 @@ const Nav = () => {
     { path: "/about", label: "About" },
     { path: "/contact", label: "Contact" },
     { path: "/blog", label: "Blog" },
-    { path: "*", label: "NotFound" },
+    // { path: "*", label: "NotFound" },
   ];
 
   // Framer Motion animation variants for the mobile menu dropdown (hidden, visible, and exit states)
@@ -40,8 +40,9 @@ const Nav = () => {
 
   return (
     // Main nav container with layout animation for height transitions
-    <motion.nav layout className="w-full text-power py-4 px-5 z-50">
+    <motion.nav layout className="w-full text-bone py-4 px-5 z-50">
       <div className="flex items-center justify-between md:justify-center">
+
         {/* Hamburger toggle button with simple rotation animation */}
         <motion.button
           onClick={toggleMenu} // Toggle mobile menu on click
@@ -72,7 +73,8 @@ const Nav = () => {
               animate="visible" // Animation state when visible
               exit="exit" // Exit state for the menu when it closes
               variants={menuVariants} // Apply Framer Motion variants
-              className="flex flex-col items-center gap-4 mt-4 text-sm font-bold uppercase tracking-wide md:hidden overflow-hidden"
+              className="flex flex-col items-center gap-4 mt-4 text-sm font-bold 
+                  uppercase tracking-wide md:hidden overflow-hidden"
             >
               {navItems.map(({ path, label }) => (
                 <li key={path} className="relative group w-full">
@@ -80,15 +82,17 @@ const Nav = () => {
                     to={path} // Navigation link to the path
                     onClick={() => setIsOpen(false)} // Close the menu on click
                     className={`block px-4 py-2 text-center rounded transition-all duration-200 cursor-pointer 
+
                       ${location.pathname === path // Apply active styles if the path matches
-                        ? "bg-power text-cloud" 
+                        ? "bg-bone text-cloud" 
                         : "hover:text-cloud"
                       }`}
                   >
                     {label} {/* Link label */}
                   </Link>
+
                   {/* Full-width background on hover */}
-                  <span className="absolute inset-0 bg-power opacity-0 group-hover:opacity-100 transform scale-x-0 group-hover:scale-x-100 transition-all duration-200 ease-in-out"></span>
+                  <span className="absolute inset-0 bg-bone opacity-0 group-hover:opacity-100 transform scale-x-0 group-hover:scale-x-100 transition-all duration-200 ease-in-out"></span>
                 </li>
               ))}
             </motion.ul>
@@ -104,14 +108,14 @@ const Nav = () => {
               to={path} // Navigation link to the path
               className={`block px-4 py-2 text-center rounded transition-all duration-200 cursor-pointer 
                 ${location.pathname === path // Apply active styles if the path matches
-                  ? "bg-power text-cloud"
-                  : "hover:text-cloud"
+                  ? "bg-bone text-cloud"
+                  : "hover:text-air"
                 }`}
             >
               {label} {/* Link label */}
             </Link>
             {/* Full-width background on hover */}
-            <span className="absolute inset-0 bg-power opacity-0 group-hover:opacity-100 transform scale-x-0 group-hover:scale-x-100 transition-all duration-200 ease-in-out"></span>
+            <span className="absolute inset-0 bg-bone opacity-0 group-hover:opacity-100 transform scale-x-0 group-hover:scale-x-100 transition-all duration-200 ease-in-out"></span>
           </li>
         ))}
       </ul>

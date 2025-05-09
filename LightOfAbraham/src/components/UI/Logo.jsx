@@ -5,11 +5,11 @@ import LogoImg from '@/assets/images/Logo.png';
 const Logo = () => {
   const controls = useAnimation();
 
-  // Spin on interval (every 5 minutes)
+  // Spin on interval (every 1 minutes)
   useEffect(() => {
     const interval = setInterval(() => {
       spinOnce();
-    }, 5 * 60 * 1000); // 5 minutes
+    }, 1 * 60 * 1000); // 1 minutes
     return () => clearInterval(interval);
   }, []);
 
