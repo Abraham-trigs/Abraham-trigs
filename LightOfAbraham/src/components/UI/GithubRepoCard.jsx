@@ -1,34 +1,63 @@
 // src/components/GithubRepoCard.jsx
 
 import { FiExternalLink } from 'react-icons/fi';
+import { motion } from 'framer-motion';
 
 /**
  * GithubRepoCard is a UI component that displays key details about a GitHub repository.
  *
- * @param {Object} repo - The repository data.
- * @returns {JSX.Element} The rendered repository card.
+ * @param {Object} repo - The repository data object containing metadata like name, description, language, stars, and URL.
+ * @returns {JSX.Element} - A styled card with motion animations and repository details.
  */
 const GithubRepoCard = ({ repo }) => {
   return (
-    <div className="bg-cloud dark:bg-power rounded-2xl shadow-md p-5 hover:scale-[1.02] transition-all duration-200 border border-[#004B46]">
-      <h3 className="text-xl font-semibold text-power dark:text-cloud mb-2">{repo.name}</h3>
+    <motion.div
+      initial={{ opacity: 0, y: 60, rotateX: 90 }}
+      animate={{ opacity: 1, y: 0, rotateX: 0 }}
+      transition={{
+        type: 'spring',
+        stiffness: 90,
+        damping: 12,
+        mass: 0.8,
+        duration: 0.6,
+      }}
+      whileHover={{ scale: 1.03, rotateZ: 1 }}
+      whileTap={{ scale: 0.98 }}
+      className="bg-bone rounded-2xl shadow-lg p-5 border border-[#004B46] transition-all duration-300 hover:bg-blood"
+    >
+      {/* Repository name displayed prominently */}
+      <h3 className="text-xl font-semibold text-power p-2 bg-blood rounded-lg text-center hover:bg-power dark:text-cloud mb-2">
+        {repo.name}
+      </h3>
+
+      {/* Repository description, with fallback if not provided */}
       <p className="text-[#004B46] dark:text-cloud text-sm line-clamp-3">
         {repo.description || 'No description provided.'}
       </p>
+
+      {/* Repo metadata section: language, stars, and last update date */}
       <div className="flex flex-wrap items-center gap-2 mt-4 text-sm">
-        {repo.language && <span className="bg-[#004B46] text-cloud px-2 py-1 rounded-md">{repo.language}</span>}
-        <span className="text-[#AE0204]">⭐ {repo.stargazers_count}</span>
-        <span className="text-gray-500 dark:text-cloud/70">Updated {new Date(repo.updated_at).toLocaleDateString()}</span>
+        {repo.language && (
+          <span className="bg-air text-bone hover:bg-power hover:text-cloud px-2 py-1 rounded-md">
+            {repo.language}
+          </span>
+        )}
+        <span className="text-cloud">⭐ {repo.stargazers_count}</span>
+        <span className="text-cloud dark:text-cloud/70">
+          Updated {new Date(repo.updated_at).toLocaleDateString()}
+        </span>
       </div>
+
+      {/* GitHub external link button with icon */}
       <a
         href={repo.html_url}
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-4 inline-block text-sm text-[#AE0204] hover:underline"
+        className="mt-4 inline-block text-sm text-cloud hover:underline"
       >
         View on GitHub <FiExternalLink size={14} />
       </a>
-    </div>
+    </motion.div>
   );
 };
 
