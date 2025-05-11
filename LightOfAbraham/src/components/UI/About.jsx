@@ -1,9 +1,7 @@
-// src/components/About.jsx
 
-// Importing motion for animation from Framer Motion
 import { motion } from "framer-motion";
 
-// About component definition
+
 const About = () => {
   return (
     // Section wrapper with responsive padding and light theme styling only
@@ -18,7 +16,7 @@ const About = () => {
         className="max-w-4xl mx-auto"
       >
         {/* Section heading */}
-        <h2 className="text-3xl md:text-4xl font-bold mb-6 text-air p-3 bg-bone">
+        <h2 className="text-3xl md:text-4xl font-bold mb-6 text-air p-3 bg-blood">
           About Me
         </h2>
 
@@ -27,8 +25,8 @@ const About = () => {
           
           {/* Intro paragraph */}
           <p>
-            <span className="text-2xl">H</span>ello, I’m <span className="font-semibold">Abraham Bortey Danfa</span>—
-            a front-end developer with a pixel-perfect eye for design, a brain tuned to clean architecture,
+            <span className="text-2xl">H</span>ello, I’m Abraham Bortey Danfa —
+            a Front-end Web Developer & Creative Graphic Designer with a pixel-perfect eye and brain tuned to clean architecture,
             and a heart wired for building things that matter.
           </p>
 
@@ -76,5 +74,4 @@ const About = () => {
   );
 };
 
-// Exporting the component for use across the portfolio
 export default About;

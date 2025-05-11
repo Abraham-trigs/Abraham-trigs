@@ -54,7 +54,7 @@ const ContactPage = () => {
       case "social":
         return (
           <div className="p-4">
-            <h3 className="text-lg font-bold mb-4">Connect with Us</h3>
+            <h3 className="text-lg font-bold mb-4">Connect with Me</h3>
             <div className="flex flex-col gap-3">
               <a href="#" className="text-blood hover:underline">Twitter</a>
               <a href="#" className="text-blood hover:underline">LinkedIn</a>

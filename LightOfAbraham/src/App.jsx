@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Background from "./components/UI/Background";
 import Nav from "./components/UI/Nav";
-import About from "./pages/About";
+import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import Blog from "./pages/Blog";
 import NotFound from "./pages/NotFound";
@@ -24,7 +24,7 @@ function App() {
           <Route path="/" element={<Home />} />
           
           {/* Route for About page */}
-          <Route path="/About" element={<About />} />
+          <Route path="/About" element={<AboutPage />} />
           
           {/* Route for Contact page */}
           <Route path="/Contact" element={<ContactPage />} />
