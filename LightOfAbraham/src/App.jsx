@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Background from "./components/UI/Background";
 import Nav from "./components/UI/Nav";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
+import ContactPage from "./pages/ContactPage";
 import Blog from "./pages/Blog";
 import NotFound from "./pages/NotFound";
 import GithubRepoCard from "./components/UI/GithubRepoCard";
@@ -27,7 +27,7 @@ function App() {
           <Route path="/About" element={<About />} />
           
           {/* Route for Contact page */}
-          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Contact" element={<ContactPage />} />
           
           {/* Route for Blog page */}
           <Route path="/Blog" element={<Blog />} />

@@ -10,6 +10,7 @@ const Background = ({ children }) => {
       {/* Foreground Content */}
       <div className="relative z-10">
         {children}
+
       </div>
     </div>
   );

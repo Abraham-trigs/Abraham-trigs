@@ -8,8 +8,7 @@ const Intro = () => {
          ABRAHAM BORTEY DANFA
         </h1>
         <h3 className="text-sm font-light font-tt mt-2 leading-5">
-          Hey, I’m Abraham — I fuse creativity with code to build bold, intuitive web
-          experiences.
+          Color is for the Eyes But Creativity, Is My Walking Stick that Moves me...
         </h3>
       </div>
     </div>
