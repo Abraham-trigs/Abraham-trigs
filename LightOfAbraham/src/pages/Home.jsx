@@ -31,17 +31,17 @@ const Home = () => {
         </motion.div>
 
         {/* Animated profile picture with hover scale */}
-        <div className="flex flex-col items-center justify-center mt-3 
+        <div className="flex flex-col items-center justify-center mt-2 
             scale-90 sm:scale-100">
           <motion.div
             layout
             className="overflow-hidden rounded-2xl border-2 border-power shadow-2xl 
-              w-60 h-72 sm:w-72 sm:h-80 transition-all duration-300 hover:scale-105"
+              w-48 h-50 sm:w-72 sm:h-80 transition-all duration-300 hover:scale-105"
           >
             <img
               src={Abraham}
               alt="Abraham Bortey Danfa"
-              className="mt-3 w-full h-full object-cover "
+              className=" w-full h-full object-cover "
             />
           </motion.div>
         </div>

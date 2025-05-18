@@ -59,7 +59,7 @@ const SocialLinks = () => {
           }}
           style={{ transformStyle: 'preserve-3d' }} // Enables proper 3D rendering
         >
-          <FaEnvelope className="w-20 h-auto text-lg text-cloud" />
+          <FaEnvelope className="w-14 h-auto text-lg text-cloud" />
         </motion.div>
       </motion.div>
     </>
