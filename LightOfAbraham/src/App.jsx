@@ -17,7 +17,7 @@ function App() {
       <Nav />
 
       {/* Scrollable page content container */}
-      <div className="relative z-10 h-screen overflow-y-auto">
+      <div className="relative z-10 h-screen overflow-y-auto m-4 text-justify">
         {/* Defining routes for different pages */}
         <Routes>
           {/* Route for Home page */}

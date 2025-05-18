@@ -45,7 +45,7 @@ const ContactPage = () => {
       case "map":
         return (
           <div className="p-4">
-            <h3 className="text-lg font-bold mb-4">Our Location</h3>
+            <h3 className="text-lg font-bold mb-4">My Location</h3>
             <div className="map-embed w-full h-64 bg-cloud flex items-center justify-center rounded-md">
               Map will be embedded here
             </div>
@@ -79,7 +79,7 @@ const ContactPage = () => {
           animate={selectedTab === "form" ? "active" : ""}
           variants={tabVariants}
           className={`flex items-center px-3 py-2 rounded-lg transition-colors ${
-            selectedTab === "form" ? "bg-cloud text-blood" : "text-power"
+            selectedTab === "form" ? "bg-cloud text-blood" : "text-air"
           }`}
         >
           <FaPaperPlane className="text-xl sm:text-2xl md:text-3xl" />
@@ -94,7 +94,7 @@ const ContactPage = () => {
           animate={selectedTab === "map" ? "active" : ""}
           variants={tabVariants}
           className={`flex items-center px-3 py-2 rounded-lg transition-colors ${
-            selectedTab === "map" ? "bg-cloud text-blood" : "text-power"
+            selectedTab === "map" ? "bg-cloud text-blood" : "text-air"
           }`}
         >
           <FaMapMarkerAlt className="text-xl sm:text-2xl md:text-3xl" />
@@ -109,7 +109,7 @@ const ContactPage = () => {
           animate={selectedTab === "social" ? "active" : ""}
           variants={tabVariants}
           className={`flex items-center px-3 py-2 rounded-lg transition-colors ${
-            selectedTab === "social" ? "bg-cloud text-blood" : "text-power"
+            selectedTab === "social" ? "bg-cloud text-blood" : "text-air"
           }`}
         >
           <FaEnvelope className="text-xl sm:text-2xl md:text-3xl" />

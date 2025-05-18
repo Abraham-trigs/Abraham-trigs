@@ -9,18 +9,17 @@ const Intro = () => {
         </h1>
         <h3 className="text-sm font-light font-tt mt-2 leading-5">
           Every Design Architechture, is Provided within the 
-          <span style={{
+          <strong></strong><span style={{
             color: '#004B46',
-            fontFamily: 'TT Chocolates', 
-            fontSize: '2rem'
+            fontSize: '1.2rem',
+            font: 'bold',
 
           } }> Solution</span>  and the 
-          <span style={{
+          <strong style={{
             color: '#004B46',
-            fontFamily: 'TT Chocolates', 
-            fontSize: '2rem'
-
-          } }> Problem</span> 
+            fontSize: '1.2rem'
+          } }> Problem
+          </strong>
         </h3>
       </div>
     </div>

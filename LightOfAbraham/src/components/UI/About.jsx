@@ -42,14 +42,14 @@ const About = () => {
           </p>
 
           {/* Tech stack and product philosophy */}
-          <p>
-            Today, I don’t just build web apps—I <span className="italic">design and connect</span> them.
-            From <span className="italic">low-fidelity wireframes</span> to 
-            <span className="italic"> high-impact UIs</span>, I craft clean, scalable, and 
+          <p className=" hyphens-none">
+            Today, I don’t just build web apps, I <span className="italic">design and connect</span> them.
+            From     <span className="italic"> <br /> low-fidelity wireframes </span> to 
+            <span className="italic"> <br /> high-impact UIs</span>, I craft clean, scalable, and 
             human-centered experiences using <span className="font-medium text-[#004B46]">React</span>, 
-            <span className="font-medium text-blood">Vite</span>, 
-            <span className="font-medium text-blood">Tailwind CSS</span>, 
-            <span className="font-medium text-blood">Zustand</span>, and 
+            <span className="font-medium text-blood"> Vite</span>, 
+            <span className="font-medium text-blood"> Tailwind CSS</span>, 
+            <span className="font-medium text-blood"> Zustand</span>, and 
             <span className="font-medium text-blood">API integration</span> that brings the frontend to life.
             It’s about creating products that don’t just look good—but <span className="font-semibold">work smart</span>.
           </p>

@@ -19,7 +19,7 @@ const SocialLinks = () => {
   return (
     <>
       {/* Social Icons Row */}
-      <div className="flex gap-4 mt-4">
+      <div className="flex gap-4 mt-4 m-0">
         {/* LinkedIn */}
         <a href="https://www.linkedin.com/in/abrahamtrigs/" target="_blank" rel="noreferrer">
           <FaLinkedin className="text-lg text-cloud hover:scale-110" />
@@ -46,7 +46,7 @@ const SocialLinks = () => {
         transition={{ delay: 2, duration: 0.6 }} // Delay entrance by 2s
         whileHover={{ scale: 1.2, rotate: 5 }} // On hover: slight tilt and scale up
         whileTap={{ scale: 0.95, rotate: -5 }} // On tap: slight scale down and reverse tilt
-        className="w-16 py-6 cursor-pointer perspective-[800px]" // Enable 3D perspective
+        className="w-16 py-3 cursor-pointer perspective-[800px]" // Enable 3D perspective
       >
         {/* Inner animated icon - Spins horizontally on Y-axis */}
         <motion.div

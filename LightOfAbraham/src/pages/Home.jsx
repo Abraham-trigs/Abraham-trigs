@@ -16,7 +16,8 @@ const Home = () => {
         className="grid-cols-2 items-center max-w-screen-xl mx-auto px-4"
       >
         {/* Logo section */}
-        <div className="flex flex-col items-center mt-0 w-24 h-auto mx-auto">
+        <div className="flex flex-col items-center mt-0 w-24 h-auto 
+          mx-auto">
           <Logo className="object-contain" />
         </div>
 

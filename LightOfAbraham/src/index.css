@@ -19,8 +19,9 @@
   font-style: normal;
 }
 
-body {
+.body {
   font-family: 'Inter', sans-serif; /* Default body font */
+  margin: '40px';
 }
 
 h1, h2, h3, h4, h5, h6 {
