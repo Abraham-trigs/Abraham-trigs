@@ -3,9 +3,10 @@ import { motion } from "framer-motion";
 import { FaUser, FaTools, FaLightbulb, FaBalanceScale, FaPalette, FaCommentDots } from "react-icons/fa";
 import About from "./About";
 import SkillTools from "./SkillTools";
+import Journey from "./Journey";
 
 // Optional future components (can be filled in later)
-const Journey = () => <div className="p-4">Journey timeline goes here</div>;
+// const Journey = () => <div className="p-4">Journey timeline goes here</div>;
 const Principles = () => <div className="p-4">Core values and work ethics listed here</div>;
 const DesignEthos = () => <div className="p-4">Design philosophy and inspirations go here</div>;
 const Testimonials = () => <div className="p-4">Client and peer feedback will show here</div>;
@@ -53,7 +54,7 @@ const AboutTabs = () => {
           animate={activeTab === "about" ? "active" : ""}
           variants={tabVariants}
           className={`flex items-center px-4 py-2 rounded-lg transition-colors ${
-            activeTab === "about" ? "bg-cloud text-blood" : "text-power"
+            activeTab === "about" ? "bg-cloud text-blood" : "text-air"
           }`}
         >
           <FaUser className="text-xl" />
@@ -68,7 +69,7 @@ const AboutTabs = () => {
           animate={activeTab === "skills" ? "active" : ""}
           variants={tabVariants}
           className={`flex items-center px-4 py-2 rounded-lg transition-colors ${
-            activeTab === "skills" ? "bg-cloud text-blood" : "text-power"
+            activeTab === "skills" ? "bg-cloud text-blood" : "text-air"
           }`}
         >
           <FaTools className="text-xl" />
@@ -83,7 +84,7 @@ const AboutTabs = () => {
           animate={activeTab === "journey" ? "active" : ""}
           variants={tabVariants}
           className={`flex items-center px-4 py-2 rounded-lg transition-colors ${
-            activeTab === "journey" ? "bg-cloud text-blood" : "text-power"
+            activeTab === "journey" ? "bg-cloud text-blood" : "text-air"
           }`}
         >
           <FaLightbulb className="text-xl" />
@@ -98,7 +99,7 @@ const AboutTabs = () => {
           animate={activeTab === "principles" ? "active" : ""}
           variants={tabVariants}
           className={`flex items-center px-4 py-2 rounded-lg transition-colors ${
-            activeTab === "principles" ? "bg-cloud text-blood" : "text-power"
+            activeTab === "principles" ? "bg-cloud text-blood" : "text-air"
           }`}
         >
           <FaBalanceScale className="text-xl" />
@@ -113,7 +114,7 @@ const AboutTabs = () => {
           animate={activeTab === "design" ? "active" : ""}
           variants={tabVariants}
           className={`flex items-center px-4 py-2 rounded-lg transition-colors ${
-            activeTab === "design" ? "bg-cloud text-blood" : "text-power"
+            activeTab === "design" ? "bg-cloud text-blood" : "text-air"
           }`}
         >
           <FaPalette className="text-xl" />
@@ -128,7 +129,7 @@ const AboutTabs = () => {
           animate={activeTab === "testimonials" ? "active" : ""}
           variants={tabVariants}
           className={`flex items-center px-4 py-2 rounded-lg transition-colors ${
-            activeTab === "testimonials" ? "bg-cloud text-blood" : "text-power"
+            activeTab === "testimonials" ? "bg-cloud text-blood" : "text-air"
           }`}
         >
           <FaCommentDots className="text-xl" />

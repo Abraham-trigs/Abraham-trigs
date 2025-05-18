@@ -8,7 +8,19 @@ const Intro = () => {
          ABRAHAM BORTEY DANFA
         </h1>
         <h3 className="text-sm font-light font-tt mt-2 leading-5">
-          Color is for the Eyes But Creativity, Is My Walking Stick that Moves me...
+          Every Design Architechture, is Provided with in the 
+          <span style={{
+            color: '#004B46',
+            fontFamily: 'TT Chocolates', 
+            fontSize: '2rem'
+
+          } }> Solution</span>  and the 
+          <span style={{
+            color: '#004B46',
+            fontFamily: 'TT Chocolates', 
+            fontSize: '2rem'
+
+          } }> Problem</span> 
         </h3>
       </div>
     </div>
