@@ -8,7 +8,7 @@ const Intro = () => {
          ABRAHAM BORTEY DANFA
         </h1>
         <h3 className="text-sm font-light font-tt mt-2 leading-5">
-          Every Design Architechture, is Provided with in the 
+          Every Design Architechture, is Provided within the 
           <span style={{
             color: '#004B46',
             fontFamily: 'TT Chocolates', 

@@ -20,7 +20,7 @@ const GithubRepoPage = () => {
 
   return (
   
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 ">
       {/* Logo section */}
       <div className="flex flex-col items-center mt-0 w-24 h-auto mx-auto mb-3">
         <Logo className="object-contain" />
