@@ -16,7 +16,7 @@ const NavLinkItem = ({ path, label, onClick, isActive }) => (
     </Link>
 
     {/* Animated background hover effect */}
-    <span className="absolute inset-0 bg-bone opacity-0 group-hover:opacity-100 transform scale-x-0 group-hover:scale-x-100 transition-all duration-200 ease-in-out z-[-1]"></span>
+    <span className="absolute inset-0 bg-bone opacity-0 group-hover:opacity-0 transform scale-x-0 group-hover:scale-x-100 transition-all duration-200 ease-in-out z-[-1]"></span>
   </li>
 );
 

@@ -137,7 +137,7 @@ const ContactForm = () => {
         <button
           type="submit"
           disabled={isSending}
-          className={`w-full ${isSending ? 'bg-gray-500 cursor-not-allowed' : 'bg-bone hover:bg-blood'} text-white font-semibold py-2 px-4 rounded-xl transition-all duration-300`}
+          className={`w-full ${isSending ? 'bg-gray-500 cursor-not-allowed' : 'bg-bone hover:bg-blood'} text-power font-semibold py-2 px-4 rounded-xl transition-all duration-300`}
         >
           {isSending ? "Sending..." : "Send Message"}
         </button>

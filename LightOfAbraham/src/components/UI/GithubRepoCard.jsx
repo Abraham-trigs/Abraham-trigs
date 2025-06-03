@@ -23,7 +23,7 @@ const GithubRepoCard = ({ repo }) => {
       }}
       whileHover={{ scale: 1.03, rotateZ: 1 }}
       whileTap={{ scale: 0.98 }}
-      className="bg-air rounded-2xl shadow-lg p-5 border border-[#004B46] transition-all duration-300 hover:bg-blood hover:bg-opacity-0"
+      className="bg-air rounded-2xl shadow-lg p-5 border border-bone transition-all duration-300 hover:bg-blood-800 hover:bg-opacity-0"
     >
       {/* Repository name displayed prominently */}
       <h3 className="text-xl font-semibold text-cloud p-2 bg-blood rounded-lg text-center hover:bg-power mb-2">

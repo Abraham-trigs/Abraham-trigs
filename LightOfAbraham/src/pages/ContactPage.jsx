@@ -19,7 +19,7 @@ const ContactPage = () => {
       case "form":
         return (
           <div className="p-4">
-            <h3 className="text-lg font-bold mb-4">Contact Form</h3>
+            <h3 className="text-lg font-bold mb-4">Send Instant Email</h3>
             <form className="space-y-4">
               <input
                 type="text"
@@ -36,8 +36,8 @@ const ContactPage = () => {
                 className="w-full p-2 border rounded-md"
                 rows="5"
               />
-              <button className="px-4 py-2 bg-blood text-white rounded-md hover:bg-blood/90 transition">
-                Submit
+              <button className="px-4 py-2 bg-bone hover:bg-air hover:text-blood shadow-sm text-white rounded-md hover:bg-blood/90 transition">
+                Send
               </button>
             </form>
           </div>

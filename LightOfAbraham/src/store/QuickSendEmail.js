@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 /**
  * Zustand store for managing contact form submission state and logic.
  */
-const useContactStore = create((set, get) => ({
+const useQuickSendEmail = create((set, get) => ({
   isSending: false, // Indicates whether the form is currently being submitted
   isSent: false,    // Indicates whether the form was successfully submitted
   error: null,      // Stores the error message if submission fails
@@ -66,4 +66,4 @@ const useContactStore = create((set, get) => ({
   }
 }));
 
-export default useContactStore;
+export default useQuickSendEmail;
