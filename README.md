@@ -1,10 +1,12 @@
-- 👋 Hi, I’m @Abraham-trigs  
-- 👀 I’m interested in building UI-driven web apps, fintech tools, and community-focused platforms.  
-- 🌱 I’m currently sharpening my skills in React, Zustand, and responsive design—while preparing to build a custom AI assistant for my apps.  
-- 💞️ I’m looking to collaborate on front-end projects that make a difference
-- 📫 How to reach me: abrahamtrigs@gmail.com or [LinkedIn](https://www.linkedin.com/in/abrahamtrigs)  
+# Hey there, I’m Abraham 👋🏽
+
+- 👀 Currently building clean, UI-driven web apps, fintech tools, and community-focused platforms.  
+- 🛠️ Specializing in React, Zustand, and responsive design—now exploring how to integrate custom AI assistants into real-world apps.  
+- 🧠 From graphic design to front-end engineering: I don’t just mock interfaces—I make them breathe.  
+- 🤝 Open to front-end collaborations that actually solve problems, not just look cool.  
+- 📫 Reach me at **abrahamtrigs@gmail.com** or [LinkedIn](https://www.linkedin.com/in/abrahamtrigs)  
+- ⚡ Fun fact: I code like a dev, think like a designer, and pitch like a founder.  
 - 😄 Pronouns: He/Him  
-- ⚡ Fun fact: I blend design and code like a pro—started as a graphic designer, now I build the interfaces I used to mock up!
 
 <!---
 Abraham-trigs/Abraham-trigs is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
