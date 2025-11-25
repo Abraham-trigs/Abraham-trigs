@@ -1,12 +1,16 @@
-# Hey there, I’m Abraham 👋🏽
+## 🔭 Current Projects
+- **The Ark**: Multi-tenant platform with AI integration
+- **School Management System**: Fullstack multi-role platform
+- **Restaurant Web App Mockup**: UI/UX prototype in Adobe XD
+- **Shadilock Fabrications Website**: Live company website
+- **MRO Automotive Website**: Responsive client project
 
-- 🚀 Full-stack engineer building **Ellicom Hub** — a dynamic internal platform powered by **Next.js**, **Zustand**, **TailwindCSS**, and **pnpm**
-- 🧠 From Figma mockups to database schemas — I bridge **design** and **dev** 
-- 🧰 Specializing in **React**, **Next.js App Router**, **Zustand**, **Prisma** to solve **Real WOrld** Problem.
-- 🤖 Now diving deep into **AI integrations** — making custom assistants that *actually* improve workflows.
-- 🌍 Built systems for designers, admins, and clients — dashboards, job flows, asset libraries, the whole 9 yards.
-- 🤝 Open to collabs where UI meets logic and everything feels smooth.
-- 📫 Reach me at **abrahamtrigs@gmail.com** or [LinkedIn](https://www.linkedin.com/in/abrahamtrigs)
-- ⚡ Fun fact: I design and code like an engineer, and
-- 😄 Pronouns: He/Him
+## 💻 Tech Stack
+- **Frontend:** React, Next.js, Tailwind CSS, Framer Motion, Zustand  
+- **Backend:** Node.js, Prisma, PostgreSQL, Multi-tenant Architecture  
+- **AI Tools:** ChatGPT, Claude Code, Cursor  
+- **Deployment/DevOps:** Vercel, Redis, Neon DB, Docker (local)  
 
+## 📫 How to reach me
+- Email: abrahamtrigs@gmail.com
+- LinkedIn: https://www.linkedin.com/in/abrahamdanfa/  
