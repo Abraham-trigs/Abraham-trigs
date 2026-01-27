@@ -1,29 +1,47 @@
 🔭 Current Projects
 
-School Management System: Fullstack multi-role platform with advanced Next.js, TypeScript, Prisma, and PostgreSQL
+PostWins – Workflow dashboard for case & grant management (React, Next.js, TypeScript)
 
-The Ark: Multi-tenant platform with AI integration
+School Management System – Multi-role platform with RBAC (Next.js, Prisma, PostgreSQL)
 
-Restaurant Web App Mockup: UI/UX prototype in Adobe XD
+Shadilock Fabrications Website – Live business website
 
-Shadilock Fabrications Website: Live company website
-
-MRO Automotive Website: Responsive client project, launching December 2025
+MRO Automotive Website – Responsive client project (launching 2025)
 
 💻 Tech Stack
 
 Frontend: React, Next.js, Tailwind CSS, Framer Motion, Zustand
+Backend: Node.js, Prisma, PostgreSQL, Multi-tenant architecture
+AI Tools: ChatGPT, Claude, Cursor
+DevOps: Vercel, Docker (local), Redis, Neon DB
 
-Backend: Node.js, Prisma, PostgreSQL, Multi-tenant Architecture
-
-AI Tools: ChatGPT, Claude Code, Cursor
-
-Deployment/DevOps: Vercel, Redis, Neon DB, Docker (local)
-
-📫 How to reach me
+📫 Contact
 
 Email: abrahamtrigs@gmail.com
 
-LinkedIn: https://www.linkedin.com/in/abrahamdanfa/
+LinkedIn: https://www.linkedin.com/in/abrahamdanfa
 
 GitHub: https://github.com/abrahamdanfa
+
+Why this version is better
+
+It now says:
+
+“I build workflow dashboards and real systems.”
+
+Instead of:
+
+“Here are all the tools I’ve ever touched.”
+
+It matches:
+✔ your frontend-focused positioning
+✔ your PostWins story
+✔ your LinkedIn headline
+✔ recruiter expectations
+
+If you want, I can also generate:
+• a shorter minimalist version
+• a more backend-focused version
+• or a portfolio-style version
+
+Just say which.
