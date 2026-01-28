@@ -21,7 +21,7 @@ Email: abrahamtrigs@gmail.com
 
 LinkedIn: https://www.linkedin.com/in/abrahamdanfa
 
-GitHub: https://github.com/abrahamdanfa
+GitHub: https://github.com/Abraham-trigs/Abraham-trigs
 
 Why this version is better
 
