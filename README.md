@@ -23,25 +23,3 @@ LinkedIn: https://www.linkedin.com/in/abrahamdanfa
 
 GitHub: https://github.com/Abraham-trigs/Abraham-trigs
 
-Why this version is better
-
-It now says:
-
-“I build workflow dashboards and real systems.”
-
-Instead of:
-
-“Here are all the tools I’ve ever touched.”
-
-It matches:
-✔ your frontend-focused positioning
-✔ your PostWins story
-✔ your LinkedIn headline
-✔ recruiter expectations
-
-If you want, I can also generate:
-• a shorter minimalist version
-• a more backend-focused version
-• or a portfolio-style version
-
-Just say which.
